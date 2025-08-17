@@ -1,9 +1,10 @@
 import mysql.connector
+from mysql.connector import Error
 
 
 def create_database():
     try:
-         conn = mysql.connector.connect(
+        conn = mysql.connector.connect(
         host = 'localhost',
         user = 'root',
         password = '121212',
